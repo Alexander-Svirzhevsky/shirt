@@ -1,0 +1,110 @@
+.menu {
+    margin-bottom: 122px;
+}
+
+.menu__section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__col {
+    margin-right: 20px;
+
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.menu__title {
+    font-family: $yanon;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 28px;
+}
+
+.menu__item {
+    color: #737373;
+    margin-bottom: 17px;
+    line-height: 1;
+
+    &:hover {
+        color: $red;
+    }
+}
+
+.menu__contacts {
+    margin-bottom: 30px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &-link {
+        display: block;
+        margin-bottom: 8px;
+    }
+}
+
+.extra {
+    display: flex;
+    margin-bottom: 97px;
+}
+
+.extra__col {
+    flex: 1;
+    margin-right: 26px;
+
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.extra__best {
+    display: block;
+    padding: 50px 130px;
+    font-family: $yanon;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    background-color: #232323;
+    text-align: center;
+}
+
+.extra__col-socials {
+    height: 100%;
+    background: url("../../img/bg/pattern.png") center center / 500px ;
+}
+
+.socials__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.socials__item {
+    margin-right: 46px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.socials__link {
+    display: block;
+    width: 38px;
+    height: 38px;
+
+    &:hover {
+        fill: $red;
+    }
+}
+
+.socials__icon {
+    width: 100%;
+    height: 100%;
+}

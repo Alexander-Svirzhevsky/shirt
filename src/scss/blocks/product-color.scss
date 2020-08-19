@@ -1,0 +1,65 @@
+.product__color {
+    margin-bottom: 35px;
+}
+
+.product__color-list {
+    display: flex;
+}
+
+.product__color-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+
+    &:hover {
+        border: 2px solid #ffc92f;
+    }
+
+    &--active {
+        border: 2px solid #ffc92f;
+    }
+
+}
+
+.product__color-link {
+    width: 22px;
+    height: 22px;
+    display: block;
+    border-radius: 50%;
+
+    &--black {
+        background-color: #2f2c25;
+    }
+
+    &--grey {
+        background-color: #e0d9c8;
+    }
+
+    &--green {
+        background-color: #529029;
+    }
+
+    &--blue {
+        background-color: #39498d;
+    }
+
+    &--red {
+        background-color: #d82727;
+    }
+}
+
+.btn--product {
+    padding: 16px 75px;
+    font-size: 28px;
+    line-height: 23.51px;
+    letter-spacing: 1.2px;
+}
+
+.img-shirt {
+    padding: 25% 4%;
+    max-width: 102%;
+}

@@ -1,0 +1,64 @@
+.collection__list {
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 140px;
+}
+
+.collection__item {
+    flex: 1;
+    margin-right: 24px;
+    min-height: 473px;
+    background: url("../../img/bg/pattern.png") center center / 500px ;
+    overflow: hidden;
+    position: relative;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.collection-desc {
+    display: block;
+    padding: 75px 8% 75px 44%;
+    height: 100%;
+
+    &:hover .btn {
+        background: $red;
+        color: #fcf5e6;
+    }
+}
+
+.collection-title {
+    font-family: $yanon;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 auto;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    margin-bottom: 10px;
+}
+
+.collection-text {
+    margin-bottom: 25px;
+}
+
+.collection__item::before {
+    content: "";
+    display: block;
+    background: center center / contain no-repeat;
+    position: absolute;
+    height: 180%;
+    width: 60%;
+    top: -17%;
+    left: -16%;
+}
+
+.collection__item--man::before {
+    background-image: url("../../img/collections/collection_man.png");
+}
+
+.collection__item--woman::before {
+    background-image: url("../../img/collections/collection_woman.png");
+    top: -44%;
+}

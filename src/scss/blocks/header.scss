@@ -1,0 +1,47 @@
+.header-product {
+    background: url("../../img/bg/hero.jpg") center center / cover no-repeat;
+    // min-height: 181px;
+    display: flex;
+    padding: 31px 0;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 90px;
+}
+
+.header__icon {
+    width: 150px;
+    height: 119px;
+}
+
+.header__col {
+    position: relative;
+}
+
+.header-product::before {
+    content: "";
+    display: block;
+    background: url("../../img/decor/header-guys.png") center center / contain no-repeat;
+    position: absolute;
+    width: 33%;
+    height: 157%;
+    top: -15%;
+}
+
+.header__text {
+    font-family: 'alegreya';
+    font-size: 31px;
+    color: #ffffff;
+    line-height: 1.1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-transform: uppercase;
+    // position: absolute;
+    // left: 10%;
+    // bottom: 4%;
+    position: absolute;
+    right: 79px;
+    top: -67px;
+}

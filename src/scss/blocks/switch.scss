@@ -1,0 +1,31 @@
+.switch__list {
+    display: flex;
+    font-family: $yanon;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 104px;
+}
+
+.switch__item {
+    margin-right: 65px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.switch__link {
+    &:hover {
+        color: $red;
+    }
+    padding: 6px 18px;
+}
+
+.switch__item--active .switch__link {
+    color: #ffc92f;
+        background-color: #1b1b1b;
+} 
+

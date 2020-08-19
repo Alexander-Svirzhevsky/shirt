@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lostShirt</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="section hero">
+            <div class="container">
+                <div class="header">
+                    <img src="img/content/logos/logo-main.png" alt="lostShirt" class="header_icon">
+                    <div class="header__contact">
+                        <span>По всем вопросам пишите на:</span>
+                        <a href="mailto:lostinspace@mail.ru" class="phone__header">lostinspace@mail.ru</a>
+                    </div>
+                </div>
+                <div class="hero__content">
+                    <ul class="slider">
+                        <li class="slider__item slider__item--price slider__item--active">
+                            <!-- <div class="slider__text"> -->
+                            <h1 class="slider-text">
+                                <div class="slider-text__word">три</div>
+                                <div class="slider-text__word">футболки</div>
+                                <div class="slider-text__word slider-text__word--yellow">по цене</div>
+                                <div class="slider-text__word slider-text__word--yellow">двух</div>
+                            </h1>
+                            <!-- </div> -->
+                        </li>
+                        <li class="slider__item slider__item--games">
+                            <!-- <div class="slider__text"> -->
+                            <h1 class="slider-text">
+                                <div class="slider-text__word">любимые игры</div>
+                                <div class="slider-text__word slider-text__word--yellow">на лучших футболках</div>
+                            </h1>
+                            <!-- </div> -->
+                        </li>
+                        <li class="slider__item slider__item--present">
+                            <!-- <div class="slider__text"> -->
+                            <h1 class="slider-text">
+                                <div class="slider-text__word">подарки</div>
+                                <div class="slider-text__word slider-text__word--yellow">для любимых</div>
+                            </h1>
+                            <!-- </div> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <aside class="sidebar">
+                <a href="#" class="hamburger">
+                    <svg class="hamburger-img">
+                        <use xlink:href="img/sprite.svg#bars"></use>
+                    </svg>
+                </a>
+                <div class="sidebar__header">
+                    <a href="#" class="sidebar__icon">
+                        <img src="img/content/logos/logo-main.png" alt="lostShirt" class="sidebar-img">
+                    </a>
+                    <a href="#" class="sidebar__close">
+                        <svg class="close-img">
+                            <use xlink:href="img/sprite.svg#cross"></use>
+                        </svg>
+                    </a>
+                </div>
+                <nav class="sidebar-menu">
+                    <ul class="sidebar__list">
+                        <li class="sidebar__item">
+                            <a href="product.html" class="sidebar__link">ДЕТСКАЯ КОЛЛЕКЦИЯ</a>
+                        </li>
+                        <li class="sidebar__item">
+                            <a href="product.html" class="sidebar__link">МУЖСКАЯ КОЛЛЕКЦИЯ</a>
+                        </li>
+                        <li class="sidebar__item">
+                            <a href="product.html" class="sidebar__link">ЖЕНСКАЯ КОЛЛЕКЦИЯ</a>
+                        </li>
+                        <li class="sidebar__item">
+                            <a href="product.html" class="sidebar__link">ПОПУЛЯРНЫЕ ПРИНТЫ</a>
+                        </li>
+                        <li class="sidebar__item">
+                            <a href="product.html" class="sidebar__link">НОВЫЕ ПРИНТЫ</a>
+                        </li>
+                        <li class="sidebar__item">
+                            <a href="product.html" class="sidebar__link">СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ</a>
+                        </li>
+                        <li class="sidebar__item">
+                            <a href="product.html" class="sidebar__link">СКОРО В ПРОДАЖЕ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+        </section>
+        <section class="content">
+            <div class="container">
+                <div class="switch">
+                    <ul class="switch__list">
+                        <li class="switch__item switch__item--active"><a href="#" class="switch__link"
+                                data-filter="popular">Популярное</a>
+                        </li>
+                        <li class="switch__item"><a href="#" class="switch__link" data-filter="new">новинки</a></li>
+                        <li class="switch__item"><a href="#" class="switch__link"
+                                data-filter="bestsellers">бестселлеры</a></li>
+                        <li class="switch__item"><a href="#" class="switch__link" data-filter="special">специальные
+                                предложения</a></li>
+                        <li class="switch__item"><a href="#" class="switch__link" data-filter="soon">скоро в продаже</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="products">
+                    <ul class="products__list">
+                        <li class="products__item popular special">
+                            <div class="products__price">
+                                <div class="products__price-amount">1800</div>
+                            </div>
+                            <div class="products-content">
+                                <img src="img/tshirts/tshirt_06.png" alt="lostShirt" class="products-img">
+                                <div class="products__desc">
+                                    <div class="products-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    </div>
+                                    <a href="product.html" class="btn">подробнее</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="products__item popular new soon">
+                            <div class="products__price">
+                                <div class="products__price-amount">2500</div>
+                            </div>
+                            <div class="products-content">
+                                <img src="img/tshirts/tshirt_05.png" alt="lostShirt" class="products-img">
+                                <div class="products__desc">
+                                    <div class="products-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    </div>
+                                    <a href="product.html" class="btn">подробнее</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="products__item products__item--color products__item--size popular new special">
+                            <div class="products__price">
+                                <div class="products__price-amount">2800</div>
+                            </div>
+                            <div class="products-content">
+                                <img src="img/tshirts/tshirt_04.png" alt="lostShirt" class="products-img">
+                                <div class="products__desc">
+                                    <div class="products-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    </div>
+                                    <a href="product.html" class="btn">подробнее</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="products__item products__item--color products__item--size popular bestsellers">
+                            <div class="products__price">
+                                <div class="products__price-amount">2500</div>
+                            </div>
+                            <div class="products-content">
+                                <img src="img/tshirts/tshirt_03.png" alt="lostShirt" class="products-img">
+                                <div class="products__desc">
+                                    <div class="products-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    </div>
+                                    <a href="product.html" class="btn">подробнее</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="products__item popular bestsellers">
+                            <div class="products__price">
+                                <div class="products__price-amount">2000</div>
+                            </div>
+                            <div class="products-content">
+                                <img src="img/tshirts/tshirt_02.png" alt="lostShirt" class="products-img">
+                                <div class="products__desc">
+                                    <div class="products-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    </div>
+                                    <a href="product.html" class="btn">подробнее</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="products__item popular special new">
+                            <div class="products__price">
+                                <div class="products__price-amount">1250</div>
+                            </div>
+                            <div class="products-content">
+                                <img src="img/tshirts/tshirt_01.png" alt="lostShirt" class="products-img">
+                                <div class="products__desc">
+                                    <div class="products-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    </div>
+                                    <a href="product.html" class="btn">подробнее</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="collection">
+            <div class="container">
+                <ul class="collection__list">
+                    <li class="collection__item collection__item--man">
+                        <a href="product.html" class="collection-desc">
+                            <h2 class="collection-title">мужская коллекция</h2>
+                            <div class="collection-text">
+                                Оригинальные, шуточные, полезные и мужественные футболки.
+                            </div>
+                            <div class="btn">Посмотреть</div>
+                        </a>
+                    </li>
+                    <li class="collection__item collection__item--woman">
+                        <a href="product.html" class="collection-desc">
+                            <h2 class="collection-title">Женская коллекция</h2>
+                            <div class="collection-text">
+                                Подари своей девушке прикольную футболку с надписями, и ты подаришь
+                                ей, как минимум, еще одну улыбку.
+                            </div>
+                            <div class="btn">Посмотреть</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container footer-container">
+                <nav class="menu">
+                    <ul class="menu__section">
+                        <li class="menu__col">
+                            <h3 class="menu__title">Информация</h3>
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="product.html" class="menu__link">О магазине</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="product.html" class="menu__link">Адреса магазинов</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="product.html" class="menu__link">Как сделать заказ?</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="product.html" class="menu__link">Обмен и возврат</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="product.html" class="menu__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__col">
+                            <h3 class="menu__title">Футболки</h3>
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="product.html" class="menu__link">Популярное </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="product.html" class="menu__link">Новинки </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="product.html" class="menu__link">Бестселлеры </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="product.html" class="menu__link">Специальные предложения</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="product.html" class="menu__link">Скоро в продаже</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__col">
+                            <h3 class="menu__title">Коллекции</h3>
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="product.html" class="menu__link">Детская коллекция</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="product.html" class="menu__link">Женскаяя коллекция</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="product.html" class="menu__link">Мужская коллекция</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="product.html" class="menu__link">Лучшие принты 2018 года</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="product.html" class="menu__link">Лучшие принты 2019 года</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__col">
+                            <h3 class="menu__title">Контактная информация</h3>
+                            <div class="menu__contacts">
+                                Санкт-Петербург, <br>
+                                ул. Жуковского, д. 12
+                            </div>
+                            <div class="menu__contacts">
+                                <a href="tel.:+78123157235" class="menu__contacts-link">Телефон: 8 (812) 315-72-35</a>
+                                <a href="mailto:support@yourwebsite.com" class="menu__contacts-link">Email:
+                                    support@yourwebsite.com</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <section class="extra">
+                    <div class="extra__col">
+                        <a href="#" class="extra__best">
+                            Лучшие принты <br>
+                            2019 года
+                        </a>
+                    </div>
+                    <div class="extra__col">
+                        <div class="extra__col-socials">
+                            <ul class="socials__list">
+                                <li class="socials__item">
+                                    <a href="" class="socials__link">
+                                        <svg class="socials__icon">
+                                            <use xlink:href="img/sprite.svg#fb"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="" class="socials__link">
+                                        <svg class="socials__icon">
+                                            <use xlink:href="img/sprite.svg#twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="" class="socials__link">
+                                        <svg class="socials__icon">
+                                            <use xlink:href="img/sprite.svg#insta"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="" class="socials__link">
+                                        <svg class="socials__icon">
+                                            <use xlink:href="img/sprite.svg#pin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="./js/vendors.min.js"></script>
+    <script src="./js/script.min.js"></script>
+</body>
+
+</html>
